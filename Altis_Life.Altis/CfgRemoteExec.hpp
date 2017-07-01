@@ -11,7 +11,17 @@ class CfgRemoteExec {
     class Functions {
         mode = 1;
         jip = 0;
-
+		
+		/* NSS Admin */
+		class NSS_AC_fnc_curatorCreateModuleMP {allowedTargets=2}; 
+        class NSS_AC_fnc_Execute {allowedTargets=0}; 
+		/* ATS */
+        class ATRAIN_fnc_unregisterTrainAndDriver { allowedTargets=2; }; 
+		class ATRAIN_fnc_registerTrainAndDriver { allowedTargets=2; }; 
+		class ATRAIN_fnc_updateTrackMap { allowedTargets=2; }; 
+		class ATRAIN_fnc_hideTrainObjectGlobal { allowedTargets=2; }; 
+		class ATRAIN_fnc_hidePlayerObjectGlobal { allowedTargets=2; };
+        class ATRAIN_fnc_requestATSInstall { allowedTargets=2; };
         /* Client only functions */
         F(life_fnc_AAN,CLIENT)
         F(life_fnc_addVehicle2Chain,CLIENT)
