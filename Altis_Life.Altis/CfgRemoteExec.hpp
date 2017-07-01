@@ -13,8 +13,8 @@ class CfgRemoteExec {
         jip = 0;
 		
 		/* NSS Admin */
-		class NSS_AC_fnc_curatorCreateModuleMP {allowedTargets=2}; 
-        class NSS_AC_fnc_Execute {allowedTargets=0}; 
+		class NSS_AC_fnc_curatorCreateModuleMP { allowedTargets=2; };
+        class NSS_AC_fnc_Execute { allowedTargets=0; };
 		/* ATS */
         class ATRAIN_fnc_unregisterTrainAndDriver { allowedTargets=2; }; 
 		class ATRAIN_fnc_registerTrainAndDriver { allowedTargets=2; }; 
