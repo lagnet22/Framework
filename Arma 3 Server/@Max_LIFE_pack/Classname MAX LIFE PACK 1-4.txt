@@ -1,0 +1,464 @@
+
+MAX LIFE PACK 1.4
+
+// UNITS CLASSNAMES //
+
+
+---- Coast Guard Units ----
+
+-Coast Guard Unit-
+Classname : Max_CG_unit
+Equipment : max_CG_uniform / max_CG_hat / police_belt_biker 
+
+-Coast Guard Pilot-
+Classname : Max_CG_pilot
+Equipment : CG_pilot_uniform / police_pilot_Helmet
+
+--- Border Patrol Units ----
+
+-Border Patrolman-
+Classname : Max_border_patrolman
+Equipment : Border_patrol_uniform / BP_cap / police_belt_Without_pistol (police_belt_pistol)
+
+---- F.B.I Units ----
+
+- President - 
+Classname : max_president_new
+Equipment : president_uniform_new
+
+- Secret Service Agent -
+Classname : max_secret_agent_new
+Equipment : agent_uniform_new / G_Aviator
+
+- FBI Special Agent (Dress)
+Classname : max_special_agent_new
+Equipment : special_agent_uniform_new / G_Aviator
+
+- FBI Special Agent
+Classname : max_fbi_agent
+Equipment : fbi_agent_uniform
+
+- FBI R.R.U -
+Classname : max_fbi_rru
+Equipment : fbi_rru_uniform / fbi_rru_Helmet / fbi_rru_Vest / G_Bandanna_aviator
+
+- FBI Pilot -
+Classname : max_fbi_pilot
+Equipment : fbi_pilot_uniform / fbi_pilot_Helmet
+
+- FBI Director -
+Classname : max_fbi_director
+Equipment : fbi_director_uniform / fbi_officer_cap
+
+- FBI Deputy Director -
+Classname : max_fbi_assistant
+Equipment : fbi_assistant_uniform / fbi_officer_cap
+
+- FBI Agent6 -
+Classname : max_fbi_light6
+Equipment : fbi_light6_uniform / fbi_cap / fbi_vest_grey
+
+- FBI Agent5 -
+Classname : max_fbi_light5
+Equipment : fbi_light5_uniform / fbi_cap / fbi_vest_grey
+
+- FBI Agent4 -
+Classname : max_fbi_light4
+Equipment : fbi_light4_uniform / fbi_cap / fbi_vest_blue
+
+- FBI Agent3 -
+Classname : max_fbi_light3
+Equipment : fbi_light3_uniform / fbi_cap / fbi_vest_grey
+
+- FBI Agent2 -
+Classname : max_fbi_light2
+Equipment : fbi_light2_uniform / fbi_cap / fbi_vest_blue
+
+- FBI Agent -
+Classname : max_fbi_light
+Equipment : fbi_light_uniform / fbi_cap / fbi_vest
+
+---- Security ----
+
+- BodyGuard -
+Classname : max_bodyguard_new
+Equipment : bodyguard_uniform_new / G_Aviator
+
+- Security Officer -
+Classname : Max_security_officer
+Equipment : security_uniform / security_cap / Security_vest
+
+- Security Officer (light) -
+Classname : Max_security_officer_light
+Equipment : security_uniform / security_cap / police_belt_Without_pistol_patrolman (police_belt_pistol_patrolman)
+
+---- Police ----
+
+- P.D. Captain -
+Classname : Max_LAPD_Captain
+Equipment : max_captain_uniform / max_sergeant_Hat
+
+- P.D. Chief Of Police -
+Classname : Max_LAPD_Chief
+Equipment : max_chief_uniform / max_sergeant_Hat
+
+- P.D. Cop -
+Classname : Max_LAPD_Cop
+Equipment : max_Lapd_uniform / max_police_Hat / police_belt_Without_pistol (police_belt_pistol)
+
+- P.D. Liutentant -
+Classname : Max_LAPD_liutentant
+Equipment : max_liutentant_uniform / max_police_Hat / police_belt_Without_pistol (police_belt_pistol)
+
+- P.D. Pilot -
+Classname : max_police_pilot
+Equipment : police_pilot_uniform / police_pilot_Helmet
+
+- P.D. Recruit -
+Classname : Max_LAPD_recruit
+Equipment : max_recruit_uniform / max_police_Hat / police_belt_Without_pistol (police_belt_pistol)
+
+- P.D. Sergeant -
+Classname : Max_LAPD_sergeant
+Equipment : max_sergeant_uniform / max_police_Hat / police_belt
+
+- Police Biker -
+Classname : Max_bike_unit
+Equipment : max_sheriff_uniform / max_biker_helmet / police_belt_biker / G_Aviator
+
+- Swat Liutentant -
+Classname : Max_officer_swat
+Equipment : swat_officer_lapd / police_swat_cap / police_belt_Without_pistol_patrolman (police_belt_pistol_patrolman)
+
+- Swat Sniper -
+Classname : max_sniper_lapd
+Equipment : swat_officer_lapd / police_swat_cap / police_belt_Without_pistol_patrolman (police_belt_pistol_patrolman)
+
+- Swat Unit -
+Classname : max_lapd_swat
+Equipment : swat_lapd_uniform / Police_Swat_Helmet / police_swat_vest
+
+---- Sheriff ----
+
+- Deputy Sheriff -
+Classname : max_Sheriff_new
+Equipment : sheriff_uniform_new / max_sheriff_Hat / police_belt_sheriff
+
+----  E.M.S ----
+
+- E.M.S. Paramedic -
+Classname : Max_paramedic
+Equipment : max_paramedic_uniform / max_paramedic_cap
+
+- H.E.M.S. Pilot -
+Classname : max_hems_pilot
+Equipment : HEMS_pilot_uniform / HEMS_pilot_Helmet
+
+---- Fire Dept. ----
+
+- Fireman -
+Classname : max_fireman
+Equipment : max_fire_uniform / max_fire_Helmet
+
+---- Civilian ----
+
+- Pilot Black -
+Classname : Max_pilot_black
+Equipment : pilot_bLACK_uniform / pilot_black_helmet
+
+- Pilot Blue -
+Classname : Max_pilot_blue
+Equipment : pilot_blue_uniform / pilot_blue_helmet
+
+- Pilot Green -
+Classname : Max_pilot_green
+Equipment : pilot_green_uniform / pilot_black_helmet
+
+- Pilot Red -
+Classname : Max_pilot_red
+Equipment : pilot_red_uniform / pilot_red_helmet
+
+- V.I.P. 1 -
+Classname : Max_VIP_new
+Equipment : vip1_uniform_new
+
+- V.I.P. 2 -
+Classname : Max_VIP1_new
+Equipment : vip2_uniform_new
+
+- V.I.P. 3 -
+Classname : Max_VIP2_new
+Equipment : vip3_uniform_new
+
+---- Bad Faction ----
+
+- Drug Lord -
+Classname : Max_Drug_lord_new
+Equipment : druglord_uniform_new / G_Spectacles
+
+- Killer -
+Classname : Max_killer_new
+Equipment : Killer_uniform_new
+
+- Mafia Boss -
+Classname : Max_Mafia_Boss_new
+Equipment : mafiaboss_uniform_new
+
+- Robber -
+Classname : Max_robber_new
+Equipment : Robber_uniform_new / G_Balaclava_blk
+
+- Skull Gang Member -
+Classname : Max_skull_gang
+Equipment : skull_gang / H_Bandanna_gry
+
+// VEHICLES CLASSNAMES //
+
+---- Coast Guard Vehicles ----
+
+- Coast Guard Boat -
+Classname : max_CG_boat
+
+- Coast Guard Armed Boat -
+Classname : max_CG_armed_boat
+
+- Coast Guard Heli -
+Classname : max_CG_Heli
+
+- Border Patrol Charger -
+Classname : max_BP_charger
+
+- Border Patrol Tahoe -
+Classname : max_BP_tahoe
+
+---- F.B.I Vehicles ----
+
+- Armored Vip Car - 
+Classname : max_vipcar
+
+- F.B.I. Charger Undercover -
+Classname : max_FBI_charger_undercover
+
+- F.B.I. Hawk -
+Classname : fbi_heavy_heli
+
+- F.B.I. Littlebird -
+Classname : fbi_light_heli
+
+- F.B.I. Van -
+Classname : max_FBI_van
+
+- F.B.I. Tahoe -
+Classname : max_FBI_tahoe
+
+- Secret Service Tahoe -
+Classname : max_FBI_tahoe_undercover
+
+---- Security Vehicles ----
+
+- Money Truck -
+Classname : max_moneytruck
+
+- Security Car -
+Classname : max_impala_security
+
+---- Police Vehicles ----
+
+- Charger Undercover -
+Classname : max_Charger_undercover
+
+- CrownVic Undercover -
+Classname : max_CrownVic_undercover
+
+- P.D. Charger -
+Classname : max_Charger_Lapd
+
+- P.D. CrownVic -
+Classname : max_CrownVic_lapd
+
+- P.D. Heli Light -
+Classname : police_light_heli
+
+- P.D. Heli -
+Classname : police_heavy_heli
+
+- P.D. SwatVan -
+Classname : max_swatvan
+
+- Police Bike -
+Classname : max_bike_police
+
+---- Sheriff Vehicles ----
+
+- S.D. CrownVic -
+Classname : max_CrownVic_sheriff
+
+- S.D. Hummer3
+Classname : max_H3_sheriff
+
+---- E.M.S. Vehicles ----
+
+- E.M.S. Ambulance -
+Classname : max_ambulance
+
+- H.E.M.S. Heli
+Classname : max_HEMS_heli
+
+---- Fire Dept. Vehicles
+
+- Firetruck -
+Classname : max_firetruck
+
+---- Service Vehicles ----
+
+- Service Heli -
+Classname : max_adac_heli
+
+- Service Truck -
+Classname : max_towtruck
+
+---- Civilian Vehicles ----
+
+- Bike Black -
+Classname : max_bike
+
+- Bike Blue -
+Classname : max_bike2
+
+- Bike Green -
+Classname : max_bike3
+
+- Bike Red -
+Classname : max_bike1
+
+- Bike UC -
+Classname : max_bike4
+
+- BMW Black -
+Classname : max_BMW
+
+- BMW G/R Racing -
+Classname : max_BMW_M3_GTR3
+
+- BMW Green/B Racing -
+Classname : max_BMW_M3_GTR4
+
+- BMW Grey/B Racing -
+Classname : max_BMW_M3_GTR
+
+- BMW R/B Racing -
+Classname : max_BMW_M3_GTR1
+
+- BMW Red -
+Classname : max_BMW1
+
+- BMW White -
+Classname : max_BMW2
+
+- BMW Y/R Racing -
+Classname : max_BMW_M3_GTR2
+
+- Charger Black -
+Classname : max_charger_black
+
+- Charger Blue -
+Classname : max_charger_blue
+
+- Charger Red -
+Classname : max_charger_red
+
+- Charger Yellow -
+Classname : max_charger_yellow
+
+- CrownVic Blue -
+Classname : max_CrownVic_blue
+
+- CrownVic Red -
+Classname : max_CrownVic_red
+
+- CrownVic Taxi -
+Classname : max_CrownVic_taxi
+
+- CrownVic White -
+Classname : max_CrownVic_white
+
+- H3 Black -
+Classname : max_H3_black
+
+- H3 Red -
+Classname : max_H3_red
+
+- H3 Urbancamo -
+Classname : max_H3_urbancamo
+
+- H3 Vegeta -
+Classname : max_H3_vegeta
+
+- H3 Yellow -
+Classname : max_H3_yellow
+
+- Impala Black -
+Classname : max_impala_black
+
+- Impala Blue -
+Classname : max_impala_blue
+
+- Impala Red -
+Classname : max_impala_red
+
+- Impala White -
+Classname : max_impala_white
+
+- Jeep Black -
+Classname : max_jeep_black
+
+- Jeep Blue -
+Classname : max_jeep_blue
+
+- Jeep Green -
+Classname : max_jeep_green
+
+- Jeep Red -
+Classname : max_jeep_red
+
+- Lambo Black -
+Classname : max_lambo2
+
+- Lambo Red -
+Classname : max_lambo1
+
+- Lambo Yellow -
+Classname : max_lambo
+
+- Suv Black -
+Classname : max_suv_black
+
+- Suv Blue -
+Classname : max_suv_blue
+
+- Suv Green -
+Classname : max_suv_green
+
+- Suv Red -
+Classname : max_suv_red
+
+- Suv UrbanCamo -
+Classname : max_suv_UC
+
+- Van Blue (FedEx) -
+Classname : max_van_blue
+
+- Van Green (Pizza) -
+Classname : max_van_green
+
+- Van Grey -
+Classname : max_van_Grey
+
+- Van Red (OHL) -
+Classname : max_van_red
+
+- Van White -
+Classname : max_van_white
+
+- Van White (Cola) -
+Classname : max_van_cola
