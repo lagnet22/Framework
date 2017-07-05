@@ -92,7 +92,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -239,6 +239,13 @@ class AddonsMetaData
 			name="Arma 3 - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
+		};
+		class Item21
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -50787,30 +50794,6 @@ class Mission
 			{
 			};
 			id=5743;
-			type="Land_Wall_IndCnc_4_F";
-			atlOffset=3.8065157;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
 				{
 					property="enableSimulation";
 					expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
@@ -51135,6 +51118,108 @@ class Mission
 			type="b_mech_inf";
 			colorName="ColorWEST";
 			id=5759;
+		};
+		class Item1126
+		{
+			dataType="Layer";
+			name="Modules";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={3412.6526,14.734741,4826.3813};
+						angles[]={0,0,6.183517};
+					};
+					name="zeus";
+					id=19;
+					type="ModuleCurator_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="#adminLogged";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=3;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			id=84;
 		};
 	};
 };
