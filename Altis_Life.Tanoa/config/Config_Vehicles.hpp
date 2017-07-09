@@ -20,20 +20,14 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            
-			
-			{ "TPS_octavia_civil_silver", "" },
-			{ "TPS_octavia_civil_gold", "" },
-			{ "TPS_octavia_civil_blue", "" },
-			{ "TPS_octavia_civil_green", "" },
-			{ "TPS_octavia_civil_white", "" },
 			{ "B_Quadbike_01_F", "" },
             { "C_Hatchback_01_F", "" },
             { "C_Offroad_01_F", "" },
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "" },
             { "C_Van_01_transport_F", "" },
-            { "C_Offroad_02_unarmed_F", "" } //Apex DLC
+            { "C_Offroad_02_unarmed_F", "" },
+			{ "Jonzie_30CSL", "" }
         };
     };
 
@@ -126,23 +120,6 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-			{ "TPS_octavia_police", "" },
-			{ "TPS_octavia_policeGAI", "" },
-			{ "TPS_octavia_policeNOG", "" },
-			{ "TPS_octavia_policeCRO", "" },
-			{ "TPS_octavia_policeCDF", "" },
-			{ "TPS_octavia_policeCZ", "" },
-			{ "TPS_octavia_policeFR", "" },
-			{ "TPS_octavia_policeGEO", "" },
-            { "TPS_octavia_policeHU", "" },
-			{ "TPS_octavia_policeIL1", "" },
-			{ "TPS_octavia_policeIL2", "" },
-			{ "TPS_octavia_policepl", "" },
-			{ "TPS_octavia_policeEU", "" },
-			{ "TPS_octavia_policeSK", "" },
-			{ "TPS_octavia_policeSLO", "" },
-			{ "TPS_octavia_policeUK", "" },
-			{ "TPS_octavia_policeZW", "" },
             { "C_Offroad_01_F", "" },
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
@@ -701,17 +678,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" }
         };
     };
-
-	 class TPS_octavia_civil_silver {
-        vItemSpace = 40;
-        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 9500;
-        textures[] = {
-            { "Silver", "civ", {
-                "\tps_skoda\skoda\skoda_silver.paa"
-            }, "" },
-         };
-    };
 	
     class C_SUV_01_F {
         vItemSpace = 50;
@@ -907,6 +873,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
+        textures[] = {};
+    };
+	
+	
+    class Jonzie_30CSL {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
         textures[] = {};
     };
 };
