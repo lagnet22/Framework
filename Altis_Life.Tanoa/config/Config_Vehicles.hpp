@@ -27,21 +27,21 @@ class CarShops {
             { "C_Hatchback_01_sport_F", "" },
             { "C_Van_01_transport_F", "" },
             { "C_Offroad_02_unarmed_F", "" },
-			{ "Jonzie_30CSL", "" }
-			{ "Jonzie_Escalade", "" }
-			{ "Jonzie_Datsun_510", "" }
-			{ "Jonzie_Datsun_Z432", "" }
-			{ "Jonzie_Viper", "" }
-			{ "Jonzie_Raptor", "" }
-			{ "Jonzie_XB", "" }
-			{ "Jonzie_Transit", "" }
-			{ "Jonzie_Ambulance", "" }
-			{ "Jonzie_Ceed", "" }
-			{ "Jonzie_Quattroporte", "" }
-			{ "Jonzie_Mini_Cooper", "" }
-			{ "Jonzie_Galant", "" }
-			{ "Jonzie_STI", "" }
-			{ "Jonzie_Corolla", "" }
+			{ "Jonzie_30CSL", "" },
+			{ "Jonzie_Escalade", "" },
+			{ "Jonzie_Datsun_510", "" },
+			{ "Jonzie_Datsun_Z432", "" },
+			{ "Jonzie_Viper", "" },
+			{ "Jonzie_Raptor", "" },
+			{ "Jonzie_XB", "" },
+			{ "Jonzie_Transit", "" },
+			{ "Jonzie_Ambulance", "" },
+			{ "Jonzie_Ceed", "" },
+			{ "Jonzie_Quattroporte", "" },
+			{ "Jonzie_Mini_Cooper", "" },
+			{ "Jonzie_Galant", "" },
+			{ "Jonzie_STI", "" },
+			{ "Jonzie_Corolla", "" },
         };
     };
 
