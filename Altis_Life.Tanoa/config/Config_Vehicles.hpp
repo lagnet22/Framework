@@ -28,6 +28,20 @@ class CarShops {
             { "C_Van_01_transport_F", "" },
             { "C_Offroad_02_unarmed_F", "" },
 			{ "Jonzie_30CSL", "" }
+			{ "Jonzie_Escalade", "" }
+			{ "Jonzie_Datsun_510", "" }
+			{ "Jonzie_Datsun_Z432", "" }
+			{ "Jonzie_Viper", "" }
+			{ "Jonzie_Raptor", "" }
+			{ "Jonzie_XB", "" }
+			{ "Jonzie_Transit", "" }
+			{ "Jonzie_Ambulance", "" }
+			{ "Jonzie_Ceed", "" }
+			{ "Jonzie_Quattroporte", "" }
+			{ "Jonzie_Mini_Cooper", "" }
+			{ "Jonzie_Galant", "" }
+			{ "Jonzie_STI", "" }
+			{ "Jonzie_Corolla", "" }
         };
     };
 
@@ -878,6 +892,90 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
 	
     class Jonzie_30CSL {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+    class Jonzie_Escalade {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Datsun_510 {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Datsun_Z432 {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Viper {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Raptor {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_XB {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Transit {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Ambulance {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Ceed {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Quattroporte {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Mini_Cooper {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Galant {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_STI {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class Jonzie_Corolla {
         vItemSpace = 30;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 12500;

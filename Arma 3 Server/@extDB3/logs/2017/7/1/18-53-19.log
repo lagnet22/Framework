@@ -1,0 +1,33 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.028
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[18:53:28:678405 +02:00] [Thread 484] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[18:53:28:679888 +02:00] [Thread 484] extDB3: SQL: Initialized: NULL = ""
+[18:53:28:679952 +02:00] [Thread 484] extDB3: Locked
+[18:53:28:711059 +02:00] [Thread 1972] extDB3: SQL: Error MariaDBQueryException: The user specified as a definer ('arma3'@'localhost') does not exist
+[18:53:28:711186 +02:00] [Thread 1972] extDB3: SQL: Error MariaDBQueryException: Input: CALL resetLifeVehicles
+[18:53:28:711776 +02:00] [Thread 6956] extDB3: SQL: Error MariaDBQueryException: The user specified as a definer ('arma3'@'localhost') does not exist
+[18:53:28:711810 +02:00] [Thread 6956] extDB3: SQL: Error MariaDBQueryException: Input: CALL deleteDeadVehicles
+[18:53:28:711821 +02:00] [Thread 4272] extDB3: SQL: Error MariaDBQueryException: The user specified as a definer ('arma3'@'localhost') does not exist
+[18:53:28:711853 +02:00] [Thread 4272] extDB3: SQL: Error MariaDBQueryException: Input: CALL deleteOldHouses
+[18:53:28:712582 +02:00] [Thread 7060] extDB3: SQL: Error MariaDBQueryException: The user specified as a definer ('arma3'@'localhost') does not exist
+[18:53:28:712614 +02:00] [Thread 7060] extDB3: SQL: Error MariaDBQueryException: Input: CALL deleteOldGangs
