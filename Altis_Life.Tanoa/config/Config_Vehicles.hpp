@@ -41,7 +41,7 @@ class CarShops {
 			{ "Jonzie_Mini_Cooper", "" },
 			{ "Jonzie_Galant", "" },
 			{ "Jonzie_STI", "" },
-			{ "Jonzie_Corolla", "" },
+			{ "Jonzie_Corolla", "" }
         };
     };
 
