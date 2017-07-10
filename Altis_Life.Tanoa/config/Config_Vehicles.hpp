@@ -35,7 +35,6 @@ class CarShops {
 			{ "Jonzie_Raptor", "" },
 			{ "Jonzie_XB", "" },
 			{ "Jonzie_Transit", "" },
-			{ "Jonzie_Ambulance", "" },
 			{ "Jonzie_Ceed", "" },
 			{ "Jonzie_Quattroporte", "" },
 			{ "Jonzie_Mini_Cooper", "" },
@@ -117,7 +116,8 @@ class CarShops {
             { "C_Offroad_01_F", "" },
             { "I_Truck_02_medical_F", "" },
             { "O_Truck_03_medical_F", "" },
-            { "B_Truck_01_medical_F", "" }
+            { "B_Truck_01_medical_F", "" },
+			{ "Jonzie_Ambulance", "" }
         };
     };
 
@@ -138,7 +138,14 @@ class CarShops {
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
             { "B_MRAP_01_F", "call life_coplevel >= 2" },
-            { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" }
+            { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" },
+			{ "a3l_challenger", "" },
+			{ "A3L_Charger", "" },
+			{ "A3L_CVPI", "" },
+			{ "a3l_suburban", "" },
+			{ "a3l_tahoe", "" },
+			{ "A3L_Taurus", "" },
+			{ "dar_explorerppv", "" }
         };
     };
 
@@ -403,6 +410,55 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             }, "" }
         };
+    };
+			
+		class a3l_challenger {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+		
+		class A3L_Charger {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+
+	class A3L_CVPI {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+
+	class a3l_suburban {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+
+	class a3l_tahoe {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+
+	class A3L_Taurus {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
+    };
+
+	class dar_explorerppv {
+        vItemSpace = 30;
+        conditions = "";
+        price = 12500;
+        textures[] = {};
     };
 
     class B_Boat_Armed_01_minigun_F {
