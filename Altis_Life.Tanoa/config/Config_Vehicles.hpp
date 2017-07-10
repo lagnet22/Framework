@@ -155,7 +155,8 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
-        };
+            { "ivory_b206", "" }
+			};
     };
 
     class cop_ship {
@@ -396,6 +397,13 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         conditions = "license_cop_cAir || {!(playerSide isEqualTo west)}";
         price = 200000;
+        textures[] = {};
+    };
+
+    class ivory_b206 {
+        vItemSpace = 200;
+        conditions = "license_cop_cAir || {!(playerSide isEqualTo west)}";
+        price = 2000;
         textures[] = {};
     };
 
