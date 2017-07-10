@@ -900,7 +900,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Jonzie_Escalade {
         vItemSpace = 30;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 12500;
+        price = 10500;
         textures[] = {};
     };
 	    class Jonzie_Datsun_510 {
