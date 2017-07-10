@@ -139,13 +139,13 @@ class CarShops {
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
             { "B_MRAP_01_F", "call life_coplevel >= 2" },
             { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" },
-			{ "a3l_challenger", "" },
-			{ "A3L_Charger", "" },
-			{ "A3L_CVPI", "" },
-			{ "a3l_suburban", "" },
-			{ "a3l_tahoe", "" },
-			{ "A3L_Taurus", "" },
-			{ "dar_explorerppv", "" }
+			{ "A3L_CVPI_RCMP_lightbar", "" },
+			{ "A3L_CVPI_RCMP_slicktop", "" },
+			{ "DAR_ExplorerSheriff", "" },
+			{ "A3L_TahoeCSOLBPB", "" },
+			{ "A3L_TahoeUCPB", "" },
+			{ "Tarus_RCMP_LB", "" },
+			{ "Tarus_RCMP", "" }
         };
     };
 
@@ -155,7 +155,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Transport_01_F", "call life_coplevel >= 4" },
-            { "ivory_b206", "" }
+            { "ivory_b206_RCMP", "" }
 		};
     };
 
@@ -420,49 +420,49 @@ class LifeCfgVehicles {
         };
     };
 			
-		class a3l_challenger {
+		class A3L_CVPI_RCMP_lightbar {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 		
-		class A3L_Charger {
+		class A3L_CVPI_RCMP_slicktop {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 
-	class A3L_CVPI {
+	class DAR_ExplorerSheriff {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 
-	class a3l_suburban {
+	class A3L_TahoeCSOLBPB {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 
-	class a3l_tahoe {
+	class A3L_TahoeUCPB {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 
-	class A3L_Taurus {
+	class Tarus_RCMP_LB {
         vItemSpace = 30;
         conditions = "";
         price = 12500;
         textures[] = {};
     };
 
-	class dar_explorerppv {
+	class Tarus_RCMP {
         vItemSpace = 30;
         conditions = "";
         price = 12500;

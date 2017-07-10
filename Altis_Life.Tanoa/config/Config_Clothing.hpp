@@ -138,7 +138,10 @@ class Clothing {
             { "U_Rangemaster", $STR_C_Cop_uniforms, 25, "" },
             { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 1" },
             { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 2" },
-            { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 1" }
+            { "cadet_uni", "", 1250, "call life_coplevel >= 1" },
+			{ "police_uni1", "", 1250, "call life_coplevel >= 1" },
+			{ "police_uni2", "", 1250, "call life_coplevel >= 1" },
+			{ "police_uni13", "", 1250, "call life_coplevel >= 1" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
