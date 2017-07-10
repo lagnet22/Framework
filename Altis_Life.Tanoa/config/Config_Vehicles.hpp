@@ -40,7 +40,14 @@ class CarShops {
 			{ "Jonzie_Mini_Cooper", "" },
 			{ "Jonzie_Galant", "" },
 			{ "Jonzie_STI", "" },
-			{ "Jonzie_Corolla", "" }
+			{ "Jonzie_Corolla", "" },
+			{ "C_Sal_nissan_gtr_2017_F", "" },
+			{ "C_Sal_nissan_gtr_2017_alt_V2_F", "" },
+			{ "C_Sal_nissan_gtr_2017_Black_F", "" },
+			{ "C_Sal_nissan_gtr_2017_Grey_F", "" },
+			{ "C_Sal_nissan_gtr_2017_spe_F", "" },
+			{ "C_Sal_nissan_gtr_2017_alt_F", "" },
+			{ "C_Sal_nissan_gtr_2017_whiteD_F", "" }
         };
     };
 
@@ -1040,6 +1047,48 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 	    class Jonzie_Corolla {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_alt_V2_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_Black_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_Grey_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_spe_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_alt_F {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12500;
+        textures[] = {};
+    };
+	    class C_Sal_nissan_gtr_2017_whiteD_F {
         vItemSpace = 30;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 12500;
